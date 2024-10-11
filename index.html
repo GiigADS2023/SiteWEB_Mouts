@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/html-5.png">
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <title>Domine o HTML: Dicas e Truques</title>
+</head>
+<body>
+    <header class="main-header">
+        <div id="titulo">
+            <h1><abbr title="HyperText Markup Language">HTML</abbr></h1>
+        </div>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#assunto">Assuntos</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#" id="inscreva-se-btn">Já tem uma conta?</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <!--Sobre-->
+        <div id="container">
+            <section id="img">
+                <img src="/assets/images/undraw_programmer_re_owql.svg" alt="imgStudy">
+            </section>
+
+            <section id="sobre">
+                <div>
+                    <h2>Sobre</h2>
+                    <p>
+                        Bem-vindo ao nosso espaço digital, onde a estrutura do HTML se transforma 
+                        em uma jornada de aprendizado fascinante! Aqui, desvendamos os princípios 
+                        fundamentais que sustentam a criação de páginas web, trazendo à vida dicas 
+                        e truques que vão elevar suas habilidades de programação.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Assuntos -->
+        <section id="assunto" class="assuntos-section">
+            <h2>Assuntos</h2>
+
+            <div class="assunto">
+                <h3>Tags no HTML</h3>
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Estrutura básica</th>
+                            <th>Estrutura secundária</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;html&gt; &lt;/html&gt;</td>
+                            <td>&lt;header&gt; &lt;/header&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt; &lt;/head&gt;</td>
+                            <td>&lt;nav&gt; &lt;/nav&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;body&gt; &lt;/body&gt;</td>
+                            <td>&lt;main&gt; &lt;/main&gt;</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>&lt;section&gt; &lt;/section&gt;</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>&lt;footer&gt; &lt;/footer&gt;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="assunto">
+                <h3>Marcadores</h3>
+                <table class="styled-table">
+                    <thead>
+                        <tr><th>Tipo</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>&lt;h1&gt; Título 1 &lt;/h1&gt;</td></tr>
+                        <tr><td>&lt;h2&gt; Título 2 &lt;/h2&gt;</td></tr>
+                        <tr><td>&lt;h3&gt; Título 3 &lt;/h3&gt;</td></tr>
+                        <tr><td>&lt;h4&gt; Título 4 &lt;/h4&gt;</td></tr>
+                        <tr><td>&lt;h5&gt; Título 5 &lt;/h5&gt;</td></tr>
+                        <tr><td>&lt;h6&gt; Título 6 &lt;/h6&gt;</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="assunto">
+                <h3>Listas no HTML</h3>
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Exemplo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lista Ordenada</td>
+                            <td>&lt;ol&gt; &lt;li&gt;Item 1&lt;/li&gt; &lt;li&gt;Item 2&lt;/li&gt; &lt;/ol&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Lista Não Ordenada</td>
+                            <td>&lt;ul&gt; &lt;li&gt;Item A&lt;/li&gt; &lt;li&gt;Item B&lt;/li&gt; &lt;/ul&gt;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!--Feedback-->
+        <section>
+            <h2>Nos dê o seu feedback</h2>
+            <form id="feedback" class="feedback-form">
+                <fieldset> <!--Conjunto de campos-->
+                    <legend>Informações de contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome"><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br>
+                    <label for="comments">Comentários:</label><br>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Digite seu comentário aqui..."></textarea><br>
+                    <button type="submit" onclick="alert('Feedback enviado com sucesso!')">Enviar</button>
+                </fieldset>
+            </form>
+        </section>        
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; Site de estudo HTML</p>
+        <p>Para mais estudos e afins <a href="https://www.w3schools.com/html/default.asp" target="_blank">Clique aqui</a></p>
+        
+        <div class="contato">
+            <h3>Contato</h3>
+            <ul>
+                <li>
+                    <a href="https://wa.me/5547992480612" target="_blank">
+                        <img src="/assets/images/imgWhatsapp.png" alt="WhatsApp">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/giig06?igsh=MWJyODVsNDE4endrNQ==" target="_blank">
+                        <img src="/assets/images/imgInstagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/giorgia-batista-schmidt-033b30258/" target="_blank">
+                        <img src="/assets/images/imgLinkedin.png" alt="LinkedIn">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>    
+</body>
+</html>

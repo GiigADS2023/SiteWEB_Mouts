@@ -1,0 +1,229 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.main-header {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+.main-header h1 {
+    color: #FF4800;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-menu a:hover {
+    color: #FF4800;
+    transition: color 0.3s ease-in-out;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+#inscreva-se-btn {
+    border: 1px solid #FF4800;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #FF4800;
+    color: white;
+}
+
+.main-content {
+    padding: 40px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+#img img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#sobre {
+    max-width: 600px;
+}
+
+#sobre h2 {
+    color: #FF4800;
+    margin-bottom: 15px;
+}
+
+#sobre p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.assuntos-section {
+    padding: 40px 0;
+}
+
+.assunto {
+    margin-bottom: 40px;
+}
+
+.assunto h3 {
+    color: #FF4800;
+    margin-bottom: 20px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #FF4800;
+    color: #ffffff;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form fieldset {
+    border: none;
+    padding: 0;
+}
+
+.feedback-form legend {
+    font-size: 1.5rem;
+    color: #FF4800;
+    margin-bottom: 15px;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    resize: none; 
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #FF4800;
+    outline: none;
+}
+
+.feedback-form button {
+    background-color: #FF4800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #e04000;
+}
+
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.main-footer p a {
+    color: #FF4800;
+    text-decoration: none;
+}
+
+.main-footer p a:hover {
+    text-decoration: underline;
+}
+
+.contato ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.contato img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.contato img:hover {
+    transform: scale(1.1);
+}
